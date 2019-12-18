@@ -8,5 +8,5 @@ if (str.indexOf(myLove) == -1) {
     alert("то что нравится совпадает")
 };
 let iLove = str.slice(0, 20);
-let result = iLove + " " + myLove;
+let result = iLove + ` ` + myLove;
 alert(result);
